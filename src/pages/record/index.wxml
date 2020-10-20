@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="record">
+  <text>录制</text>
+</view>

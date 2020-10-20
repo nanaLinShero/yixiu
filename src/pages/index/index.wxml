@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="record">
+  <text>录制</text>
+  <button type="primary" class="btn" bindtap="writeNFC">写入</button>
+</view>

@@ -1,0 +1,58 @@
+{
+  "id": "2122455",
+  "name": "衣秀",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "925498",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "5571218",
+      "name": "微信",
+      "font_class": "icon-test",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "15933089",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1667289",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "7335616",
+      "name": "账户",
+      "font_class": "zhanghu",
+      "unicode": "eb42",
+      "unicode_decimal": 60226
+    },
+    {
+      "icon_id": "7708014",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "10052245",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}

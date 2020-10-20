@@ -1,0 +1,35 @@
+/**app.wxss**/
+
+@import "./common//iconfont/iconfont.wxss";
+
+page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #000;
+  color: #fff;
+  --main-color: #d43030;
+}
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,181 @@
+/**index.wxss**/
+.logo {
+  margin-top: 100rpx;
+  text-align: center;
+}
+
+.logo .image {
+  width: 192rpx;
+  height: 192rpx;
+  background-color: #3a3a3a;
+  border-radius: 52rpx;
+}
+
+.logo .text {
+  display: block;
+  line-height: 1;
+  color: #c3c3c3;
+}
+
+.logo .en {
+  margin-top: 24rpx;
+  font-size: 64rpx;
+}
+
+.logo .ch {
+  margin-top: 20rpx;
+  font-size: 56rpx;
+}
+
+.main {
+  padding: 120rpx 46rpx 0;
+}
+
+.main swiper {
+  height: 204rpx;
+}
+
+.swiper-tab {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 0 40rpx;
+  text-align: center;
+}
+
+.swiper-tab-item {
+  padding: 0 40rpx;
+  padding-bottom: 20rpx;
+  line-height: 1;
+  font-size: 28rpx;
+}
+
+.swiper-tab-item.active {
+  color: var(--main-color);
+  border-bottom: 4rpx solid var(--main-color);
+}
+
+.login-item {
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+  line-height: 72rpx;
+}
+
+.login-input-wrapper {
+  padding: 0 20rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+}
+
+.login-icon {
+  margin-right: 20rpx;
+  color: #B3B3B3;
+}
+
+.login-input {
+  flex: 1;
+  color: #505050;
+}
+
+.login-input-placeholder {
+  color: #B3B3B3;
+}
+
+.login-code-wrapper {
+  justify-content: space-between;
+}
+
+.login-code-wrapper .btn {
+  width: auto;
+  min-height: auto;
+  margin: 0 0 0 20rpx;
+  padding: 0 30rpx;
+  line-height: inherit;
+  font-weight: normal;
+  color: #505050;
+  font-size: 13rpx;
+  background-color: #fff;
+}
+
+.login-auto {
+  display: flex;
+  justify-content: space-between;
+  line-height: 110rpx;
+}
+
+.login-auto .navigator {
+  font-size: 28rpx;
+  color: #E5E5E5;
+  text-decoration: underline;
+}
+
+.login-auto checkbox {
+  font-size: 28rpx;
+}
+
+.login-auto checkbox .wx-checkbox-input {
+  width: 32rpx;
+  height: 32rpx;
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+}
+
+.login-auto checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background-color: var(--main-color);
+}
+
+.login-auto checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+.login-btn-area {
+  margin-top: 0;
+}
+
+.login-btn-area .btn {
+  width: 100%;
+  min-height: auto;
+  padding: 0;
+  line-height: inherit;
+  font-weight: normal;
+  font-size: initial;
+  background-color: var(--main-color);
+}
+
+.login-other {
+  margin-top: 20rpx;
+  line-height: 56rpx;
+}
+
+.login-other .msg {
+  display: inline-block;
+  margin-right: 80rpx;
+  vertical-align: top;
+  font-size: 26rpx;
+}
+
+.other-icon {
+  margin-right: 30rpx;
+  font-size: 56rpx;
+}
+
+.icon-zhifubao {
+  color: #3090FF;
+}
+
+.icon-icon-test {
+  color: #C8CDD2;
+}
+
+.icon-weibo {
+  color: #A8A8A8;
+}

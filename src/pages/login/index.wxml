@@ -1,0 +1,89 @@
+<!--index.wxml-->
+<view class="login">
+  <view class="logo">
+    <image class="image" src="../../common/img/logo.svg"></image>
+    <text class="text en">clothing</text>
+    <text class="text ch">衣秀</text>
+  </view>
+  <view class="main">
+    <view class="swiper-tab">
+      <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">账号密码登录</view>
+      <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">手机号登录</view>
+    </view>
+
+    <form catchsubmit="formSubmit">
+
+      <swiper current="{{currentTab}}" duration="100"  bindchange="swiperTab">
+        <swiper-item>
+          <view class="login-item login-input-wrapper">
+            <icon class="login-icon iconfont icon-zhanghu" size="14"></icon>
+            <input 
+              class="login-input" 
+              name="input" 
+              type="text"
+              confirm-type="next"  
+              placeholder-style="color:#B3B3B3"
+              placeholder="账户" 
+            />
+          </view>
+          <view class="login-item login-input-wrapper">
+            <icon class="login-icon iconfont icon-mima" size="14"></icon>
+            <input 
+              class="login-input" 
+              name="input"
+              password
+              confirm-type="done"  
+              placeholder-style="color:#B3B3B3"
+              placeholder="密码" 
+            />
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="login-item login-input-wrapper">
+            <icon class="login-icon iconfont icon-shouji" size="14"></icon>
+            <input 
+              class="login-input" 
+              name="input"
+              type="number"
+              confirm-type="next"  
+              placeholder-class="login-input-placeholder"
+              placeholder="手机号" 
+            />
+          </view>
+          <view class="login-item login-code-wrapper">
+            <view class="login-input-wrapper flex-items-center">
+              <icon class="login-icon iconfont icon-youxiang" size="14"></icon>
+              <input 
+                class="login-input" 
+                name="input"
+                type="text"
+                confirm-type="done"  
+                placeholder-class="login-input-placeholder"
+                placeholder="验证码" 
+              />
+            </view>
+            <button type="default" class="btn">获取验证码</button>
+          </view>
+        </swiper-item>
+      </swiper>
+
+      <view class="login-auto">
+        <checkbox-group name="checkbox">
+          <label><checkbox value="checkbox1"/>自动登录</label>
+        </checkbox-group>
+        <navigator url="/page/navigate/navigate?title=navigate" class="navigator" hover-class="navigator-hover">忘记密码</navigator>
+      </view>
+
+      <view class="login-btn-area login-item">
+        <button type="primary" formType="submit" class="btn">登 录</button>
+      </view>
+
+      <view class="login-other">
+        <text class="msg">其他登录方式</text>
+        <icon class="other-icon iconfont icon-zhifubao"></icon>
+        <icon class="other-icon iconfont icon-icon-test"></icon>
+        <icon class="other-icon iconfont icon-weibo"></icon>
+      </view>
+    </form>
+  </view>
+</view>
